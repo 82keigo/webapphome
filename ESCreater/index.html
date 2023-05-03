@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES作成アシスタント</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ES作成アシスタント</h1>
+
+    <div class="container">
+        <label for="prompt">お題:</label>
+        <input type="text" id="prompt" name="prompt" placeholder="お題を入力してください">
+
+        <label for="company-philosophy">会社の理念:</label>
+        <textarea id="company-philosophy" name="company-philosophy" placeholder="会社の理念を入力してください"></textarea>
+
+        <label for="self-pr">自己PR:</label>
+        <textarea id="self-pr" name="self-pr" placeholder="自己PRを入力してください"></textarea>
+
+        <label for="word-count">文字数:</label>
+        <input type="number" id="word-count" name="word-count" min="1" placeholder="文字数を入力してください">
+
+        <button id="generateButton">ESを生成する</button>
+    </div>
+
+    <div class="output">
+        <h2>生成されたES:</h2>
+        <p id="generated-es"></p>
+    </div>
+    <div id="loading" style="display:none;">Now Loading...</div>
+    <script src="client.js"></script>
+</body>
+
+</html>
