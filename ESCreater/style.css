@@ -70,3 +70,24 @@ button:hover {
 .generated-es {
     white-space: pre-wrap;
 }
+/* 既存のスタイルをそのまま使用 */
+/* (プロフィール欄やツール一覧のスタイルなど) */
+
+/* ブログ記事ナビゲーションスタイルの追加 */
+.article-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .prev-article,
+  .next-article {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .prev-article:hover,
+  .next-article:hover {
+    text-decoration: underline;
+  }
+  

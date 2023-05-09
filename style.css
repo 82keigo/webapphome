@@ -1,0 +1,202 @@
+/* styles.css */
+
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 基本設定 */
+  body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* コンテナ */
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+/* ヘッダーコンテナの追加 */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  /* ヘッダー */
+  header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;  
+  }
+  header .profile { /* 追加 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* ナビゲーションバー */
+  nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  /* メインセクション */
+  main {
+    margin: 20px 0;
+  }
+  
+  /* フッター */
+  footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* リンクのスタイル */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2077b0;
+  }
+  /* styles.css の既存のコードはそのまま残します */
+
+/* ツール一覧のスタイル */
+.tool-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tool-list li {
+  flex: 1 0 240px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.tool-list li:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.tool-list li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.tool-list li img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tool-list li span {
+  font-size: 16px;
+}
+/* styles.css の既存のコードはそのまま残します */
+
+/* プロフィール欄のスタイル */
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.profile-image {
+  text-align: center;
+  flex: 1;
+  min-width: 300px;
+  max-width: 350px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex: 2;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.sns-links {
+  display: flex;
+  gap: 10px;
+}
+
+.sns-links a {
+  color: #333;
+  font-size: 24px;
+}
+
+.sns-links a:hover {
+  color: #666;
+  transition: color 0.3s;
+}
+/* 既存のスタイルをそのまま使用 */
+/* (プロフィール欄やツール一覧のスタイルなど) */
+
+/* ブログリストスタイルの追加 */
+.blog-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list li {
+  margin-bottom: 10px;
+}
+
+.blog-list a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.blog-list a:hover {
+  text-decoration: underline;
+}

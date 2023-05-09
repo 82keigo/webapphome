@@ -4,17 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>便利Webツール</title>
+  <title>生成AI Sandbox</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>便利Webツール</h1>
-  <p>このサイトでは、さまざまな便利なWebツールを提供しています。</p>
-  
+  <!-- ヘッダーとプロフィール欄を包むdivを追加 -->
+  <div class="header-container">
+    <header>
+      <h1>生成AI Sandbox</h1>
+      <p>このサイトは、ほぼ全てがChatGPTなどの生成AIの力を借りて作成されております。</p>
+    </header>
+    <!-- プロフィール欄 -->
+    <section class="profile">
+      <div class="profile-image">
+        <img src="IMG_1594.jpg" alt="プロフィール画像">
+      </div>
+      <div class="profile-info">
+        <h2>プロフィール</h2>
+        <p>慶應義塾大学修士卒、大学時代は量子力学、推定理論を研究し、現在は特に関係のない仕事をしております。趣味で色々なアプリケーションを作成しています。Pythonのみの経験でしたがChatGPTを使ってここまで作成できました、画像含め全て生成系AIに手伝ってもらいながら作成しております。趣味は筋トレ、数学、散歩、バスケなど。</p>
+        <div class="sns-links">
+          <a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/username" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/username" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          <!-- 他のSNSリンクを追加 -->
+        </div>
+      </div>
+    </section>
+  </div>
   <h2>ツール一覧</h2>
-  <ul>
-    <li><a href="bossmail/">ビジネスメールメーカー</a> - ツール1の簡単な説明</li>
-    <li><a href="ESCreater/">ESメーカー</a> - ツール2の簡単な説明</li>
+  <ul class="tool-list">
+    <li>
+      <a href="bossmail/">
+        <img src="bossmail_image.jpg" alt="ツール1の画像">
+        <span>ビジネスメールメーカー - あなたの文章をビジネス風に変換!!</span>
+      </a>
+    </li>
+    <li>
+      <a href="ESCreater/">
+        <img src="ESCreater_image.jpg" alt="ツール2の画像">
+        <span>ESメーカー - ガクチカ入れたらES作リまっせぇ!!</span>
+      </a>
+    </li>
     <!-- 他のツールのリンクをここに追加 -->
+  </ul>
+  <h2>ブログ</h2>
+  <ul class="blog-list">
+    <li><a href="blog/20230504.html">2023年5月4日 - webサイト爆誕</a></li>
+    <!-- 他のブログ記事のリンクをここに追加 -->
   </ul>
 </body>
 </html>
