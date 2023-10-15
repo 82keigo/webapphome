@@ -1,1 +1,6 @@
 # webapphome
+ChatGPTAPIを利用した、webappを作成し、webサイト上で公開した際に使用した、html+css+jsファイルになります。
+具体的には、キーワードと会社概要からESを作成するESCreater
+砕けた日本語を敬語に変える、Bossmail
+また、音声認識とGoogle Spread　sheet APIと連携させて、ChatGPTと英会話し、改善文章をSpreadSheetに記録する改善版英会話.py
+などがコードとして記載されております。
