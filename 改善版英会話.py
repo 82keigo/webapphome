@@ -5,7 +5,7 @@ import os
 from playsound import playsound
 
 # OpenAI API キーを設定します
-openai.api_key = "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"
+openai.api_key = "yourkey"
 
 # 音声認識オブジェクトを作成します
 recognizer = sr.Recognizer()
